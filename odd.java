@@ -10,7 +10,7 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 	   Scanner s=new Scanner(System.in);
-	   System.out.println("Enter a number");
+	  
 	   int num=s.nextInt();
 	   if(num>0)
 	   {
@@ -18,7 +18,7 @@ class Ideone
 	   	{
 	   		System.out.println("Even");
 	   	}
-	   	else
+	   	else if(num%2!=0)
 	   	System.out.println("Odd");
 	   }
 	   else
