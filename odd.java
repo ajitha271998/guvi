@@ -16,14 +16,14 @@ class Ideone
 	   {
 	   	if(num%2==0)
 	   	{
-	   		System.out.println("Given number is even");
+	   		System.out.println("Even");
 	   	}
 	   	else
-	   	System.out.println("Given number is odd");
+	   	System.out.println("Odd");
 	   }
 	   else
 	   {
-	   	System.out.println("Invalid output");
+	   	System.out.println("invalid");
 	   }
 	}
 }
