@@ -18,7 +18,7 @@ class Ideone
 		{
 			if(i%2!=0)
 			{
-				if(i<1)
+				if(l<1)
 				{
 					System.out.print(i);
 				}
